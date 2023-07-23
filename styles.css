@@ -1,2 +1,25 @@
-
-/* Your CSS Code here. */
+.holder{
+	display:flex;
+/* 	display:grid; */
+	flex-wrap:wrap;
+	flex-direction:row;
+	justify-content: space-evenly;
+}
+.one{
+	height:200px;
+	width:200px;
+	color:black;
+	background-color:blue;
+}
+.two{
+	height:200px;
+	width:200px;
+	color:black;
+	background-color:orange;
+}
+.three{
+	height:200px;
+	width:200px;
+	color:black;
+	background-color:magenta;
+}
